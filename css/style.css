@@ -88,21 +88,7 @@ a {
   border-bottom: 1px solid #FFC600;
 }
 
-.about {
+.section--one {
   padding: 60px 0;
-}
-
-.about__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.about__item {
-  width: 50%;
-}
-
-.about__item:nth-child(2) {
-  border-left: 1px solid;
 }
 /*# sourceMappingURL=style.css.map */

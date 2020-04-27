@@ -12,8 +12,7 @@
 // header
 
 .header
-    background: url(../img/bg_section--one.jpg)
-    cover no-repeat
+    background: url(../img/bg_section--one.jpg)center no-repeat
     height: 100vh
     &__title
       color: #fff
@@ -33,13 +32,24 @@
         font-size: 18px
         line-height: 140%
         margin-right: 20px
-        &__link:last-child
+        &:last-child
           margin-right: 0
-      &__link:hover
-        color: #fff
-        border-bottom: 1px solid #ffc600
+        &:hover
+          color: #ffffff
+          border-bottom: 1px solid #FFC600
 // about
-  .about
-    padding: 60px 0
-    color: #ffffff
+.about
+  padding: 60px 0
+  &__inner
+    display: flex
+  &__item
+      width: 50%
+  &__item:nth-child(2)
+    border-left: 1px solid #717171
+    padding-left: 29px
     
+
+
+
+
+

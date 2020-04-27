@@ -1,1 +1,64 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+ul, li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "Roboto", sasn-serif;
+}
+
+.section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.section {
+  background: url(../img/bg_section--one.jpg) center no-repeat;
+  height: 100vh;
+}
+
+.section__title {
+  max-width: 469px;
+  padding-left: 15px;
+  padding-top: 60px;
+}
+/*# sourceMappingURL=style.css.map */

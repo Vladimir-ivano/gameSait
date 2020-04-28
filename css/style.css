@@ -157,6 +157,7 @@ a {
 .section--two .info__item {
   width: 33.33333%;
   text-align: center;
+  margin-right: 30px;
   margin-bottom: 20px;
 }
 

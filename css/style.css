@@ -110,7 +110,7 @@ a {
 
 .section--two .about__info:nth-child(2):before {
   content: "";
-  background: #717171;
+  background: #815555;
   width: 1px;
   float: left;
   height: 191px;
@@ -149,16 +149,14 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  margin-right: 30px;
   margin-bottom: 20px;
 }
 
 .section--two .info__item {
-  width: 33.33333%;
+  -ms-flex-preferred-size: calc(100%/3);
+      flex-basis: calc(100%/3);
   text-align: center;
-  margin-right: 30px;
-  margin-bottom: 20px;
 }
 
 .section--two .info__item__icon {

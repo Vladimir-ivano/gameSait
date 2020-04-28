@@ -110,7 +110,7 @@ a {
 
 .section--two .about__info:nth-child(2):before {
   content: "";
-  background: #815555;
+  background: #717171;
   width: 1px;
   float: left;
   height: 191px;
@@ -157,6 +157,7 @@ a {
 .section--two .info__item {
   width: 33.33333%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .section--two .info__item__icon {
@@ -169,6 +170,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 auto;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -193,5 +195,9 @@ a {
   font-style: italic;
   font-size: 12px;
   color: #717171;
+}
+
+.section--two .info__text p {
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */

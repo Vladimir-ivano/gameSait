@@ -48,9 +48,9 @@
     &__info
       flex-basis: 585px
       margin-bottom: 60px
-      &:nth-child(2)::before
+      &:nth-child(2):before
         content: ""
-        background: #717171
+        background: #815555
         width: 1px
         float: left
         height: 191px
@@ -83,20 +83,18 @@
       width: 33.33333%
       text-align: center
       &__icon
+        display: flex
+        justify-content: center
+        align-items: center
         width: 50px
         height: 50px
         border-radius: 50%
         border: 1px solid #FFC600
         background: #E8E8E8
-        position: relative
         margin-bottom: 15px
         &__icons
           width: 30px
           height: 30px
-          position: absolute
-          top: 19%
-          left: 20%
-          z-index: 1
     &__title
         font-size: 18px
         color: #1F1F1F
@@ -106,7 +104,8 @@
       font-style: italic
       font-size: 12px
       color: #717171
-      
+    
+
 
 
 

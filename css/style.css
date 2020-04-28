@@ -108,9 +108,9 @@ a {
   margin-bottom: 60px;
 }
 
-.section--two .about__info:nth-child(2)::before {
+.section--two .about__info:nth-child(2):before {
   content: "";
-  background: #717171;
+  background: #815555;
   width: 1px;
   float: left;
   height: 191px;
@@ -160,22 +160,26 @@ a {
 }
 
 .section--two .info__item__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   border: 1px solid #FFC600;
   background: #E8E8E8;
-  position: relative;
   margin-bottom: 15px;
 }
 
 .section--two .info__item__icon__icons {
   width: 30px;
   height: 30px;
-  position: absolute;
-  top: 19%;
-  left: 20%;
-  z-index: 1;
 }
 
 .section--two .info__title {

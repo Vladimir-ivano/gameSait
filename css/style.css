@@ -104,5 +104,54 @@ a {
 .section--two .about__info {
   -ms-flex-preferred-size: 585px;
       flex-basis: 585px;
+  margin-bottom: 60px;
+}
+
+.section--two .about__info:nth-child(2)::before {
+  content: "";
+  background: #717171;
+  width: 1px;
+  float: left;
+  height: 191px;
+  margin-right: 29px;
+}
+
+.section--two .about__title {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.section--two .about__title:before {
+  content: 'About';
+  display: block;
+  color: #717171;
+  font-size: 50px;
+}
+
+.section--two .about__text {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.section--two .about__texts {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+.section--two .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.section--two .info__item {
+  width: 33.33333%;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

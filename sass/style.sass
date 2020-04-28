@@ -46,6 +46,42 @@
     display: flex
     &__info
       flex-basis: 585px
+      margin-bottom: 60px
+      &:nth-child(2)::before
+        content: ""
+        background: #717171
+        width: 1px
+        float: left
+        height: 191px
+        margin-right: 29px
+    &__title
+      font-size: 80px
+      font-weight: 700
+      line-height: 1
+      &:before
+        content: 'About'
+        display: block
+        color: #717171
+        font-size: 50px
+    &__text
+      font-style: italic
+      font-size: 16px
+      line-height: 1.4
+      font-weight: 700
+      margin-bottom: 14px
+    &__texts
+      font-size: 14px
+      font-weight: normal
+      line-height: 1.4
+  .info
+    display: flex
+    flex-wrap: 
+    margin-bottom: 20px
+    &__item
+      width: 33.33333%
+      text-align: center
+      
+
 
 
 

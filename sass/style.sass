@@ -38,39 +38,45 @@
         color: #fff
         border-bottom: 1px solid #FFC600
 
-        // section--two
+// section--two
 .section--two
-  padding: 60px 0 40px 0
-  background: #fff
+  padding: 60px 0 40px
   height: auto
-  .about
-    display: flex
-    &__info
-      flex-basis: 585px
-      margin-bottom: 60px
-      &:nth-child(2):before
-        content: ""
-        background: #717171
-        width: 1px
-        float: left
-        height: 191px
-        margin-right: 29px
-    &__title
-      font-size: 80px
-      font-weight: 700
-      line-height: 1
-      &:before
-        content: 'About'
-        display: block
-        color: #717171
-        font-size: 50px
-    &__text
+  background: #fff
+.about
+  display: flex
+  align-items: center
+  &__title
+    font-size: 80px
+    font-weight: 700
+    line-height: 1
+    &:before
+      color: #717171
+      content: 'About'
+      display: block
+      font-size: 50px
+  &__info, &__title
+    flex-basis: 50%
+    margin-bottom: 60px
+  &__info
+    padding-left: 15px
+    position: relative
+    &::before
+      background-color: #717171
+      content: ''
+      display: block
+      height: calc( 100% - 30px )
+      left: 0
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      width: 1px
+    .about__text
+      margin-bottom: 15px
       font-style: italic
       font-size: 16px
-      line-height: 1.4
-      margin-bottom: 14px
-      color: #1F1F1F
-    &__texts
+      font-weight: 700
+    .about__texts
       font-size: 14px
       font-weight: normal
       line-height: 1.4
@@ -80,35 +86,12 @@
     margin-bottom: 20px
     &__item
       flex-basis: calc(100%/3)
-      margin-right: 30px
-      text-align: center
-      &__item:last-child
-        margin-right: 0
-      &__icon
-        display: flex
-        justify-content: center
-        align-items: center
-        margin: 0 auto
-        width: 50px
-        height: 50px
-        border-radius: 50%
-        border: 1px solid #FFC600
-        background: #E8E8E8
-        margin-bottom: 15px
-        &__icons
-          width: 30px
-          height: 30px
-    &__title
-        font-size: 18px
-        color: #1F1F1F
-        font-weight: normal
-        margin-bottom: 15px
-    &__text
-      font-style: italic
-      font-size: 12px
-      color: #717171
-    &__text p
-      margin-bottom: 15px
+      margin-bottom: 20px
+
+
+
+
+
 
 
 

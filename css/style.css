@@ -225,7 +225,8 @@ a {
 .section--three .work__title:after {
   content: '';
   display: block;
-  width: 100px;
+  width: 50%;
+  margin: 0 auto;
   height: 1px;
   background-color: #717171;
 }
@@ -243,14 +244,15 @@ a {
 }
 
 .section--three .section__btn__link:after {
-  display: block;
+  display: none;
   content: '';
   height: 1px;
-  width: calc(100% - 30px);
+  width: 50%;
+  margin: 0 auto;
   background-color: #FFC600;
 }
 
 .section--three .section__btn__link:after:hover {
-  display: none;
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

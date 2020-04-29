@@ -103,6 +103,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 60px;
 }
 
 .about__title {
@@ -121,7 +122,6 @@ a {
 .about__info, .about__title {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  margin-bottom: 60px;
 }
 
 .about__info {
@@ -208,5 +208,11 @@ a {
 
 .info__text p {
   margin-bottom: 15px;
+}
+
+.section--three {
+  padding: 60px 0 20px;
+  height: auto;
+  background: #fff;
 }
 /*# sourceMappingURL=style.css.map */

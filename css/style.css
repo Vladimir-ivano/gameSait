@@ -215,4 +215,42 @@ a {
   height: auto;
   background: #fff;
 }
+
+.section--three .work__title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.section--three .work__title:after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #717171;
+}
+
+.section--three .section__btn {
+  color: #1F1F1F;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.section--three .section__btn__link {
+  margin-right: 15px;
+  background-color: #fff;
+  outline: none;
+}
+
+.section--three .section__btn__link:after {
+  display: block;
+  content: '';
+  height: 1px;
+  width: calc(100% - 30px);
+  background-color: #FFC600;
+}
+
+.section--three .section__btn__link:after:hover {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */

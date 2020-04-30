@@ -146,16 +146,23 @@
         width: 50%
         margin: 0 auto
         background-color: #FFC600
-        &:hover
-          display: block
-          
+    &__link:hover::after
+      display: block
   .section__works
     display: flex
-    &__col
-      flex-basis: 25%
+    flex-wrap: wrap
+    &__item
+      flex-basis: calc( 100%/4)
+      position: relative
       overflow: hidden
+      height: 268px
       &__img
-        height: 50%
+        height: 100%
+        position: absolute
+        left: 50%
+        top: 0
+        transform: translateX(-50%)
+
 
 
 

@@ -250,7 +250,7 @@ a {
 }
 
 .section--three .section__btn__link:after {
-  display: block;
+  display: none;
   content: '';
   height: 1px;
   width: 50%;
@@ -259,7 +259,7 @@ a {
 }
 
 .section--three .section__btn__link:after:hover {
-  display: none;
+  display: block;
 }
 
 .section--three .section__works {

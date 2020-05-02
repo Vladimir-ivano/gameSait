@@ -323,4 +323,20 @@ a {
   line-height: 1.4;
   margin-bottom: 30px;
 }
+
+.section--four .strategic__name span:first-child {
+  color: #1F1F1F;
+}
+
+.section--four .strategic__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section--four .strategic__item__link:first-child {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  margin-right: 30px;
+}
 /*# sourceMappingURL=style.css.map */

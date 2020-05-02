@@ -378,5 +378,12 @@ a {
   font-style: italic;
   line-height: 1.4;
   color: #1F1F1F;
+  margin-bottom: 15px;
+}
+
+.section--four .strategic__text {
+  font-size: 14px;
+  color: #717171;
+  line-height: 1.4;
 }
 /*# sourceMappingURL=style.css.map */

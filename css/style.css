@@ -427,7 +427,7 @@ a {
   margin-right: 30px;
 }
 
-.services__item:nth-child(odd) {
+.services__item:nth-child(even) {
   margin-right: 0;
 }
 /*# sourceMappingURL=style.css.map */

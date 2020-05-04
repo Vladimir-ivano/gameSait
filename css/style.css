@@ -421,10 +421,10 @@ a {
 }
 
 .services__item {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  -ms-flex-preferred-size: calc(50% - 15px);
+      flex-basis: calc(50% - 15px);
   margin-bottom: 30px;
-  margin-right: 30px;
+  margin-right: 15px;
 }
 
 .services__item:nth-child(even) {

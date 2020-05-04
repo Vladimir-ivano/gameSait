@@ -368,7 +368,7 @@ a {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .section--four .strategic__name {

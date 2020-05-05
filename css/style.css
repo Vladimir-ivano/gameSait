@@ -53,6 +53,7 @@ a {
 
 .section {
   background: url(../img/bg_section--one.jpg) center no-repeat;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -393,6 +394,7 @@ a {
 
 .section--revers {
   background: url(../img/bg_section--five.jpg) center no-repeat;
+  background-size: cover;
   padding: 60px 0 0px;
   height: auto;
   color: #FAFAFA;
@@ -449,7 +451,7 @@ a {
 }
 
 .section--six {
-  padding: 60px 0 15px 0;
+  padding: 60px 0 30px;
   background: #ffffff;
   height: auto;
 }
@@ -499,11 +501,7 @@ a {
 }
 
 .section--six .team .team__item {
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
-  margin-right: 120px;
   text-align: center;
-  margin-bottom: 15px;
 }
 
 .section--six .team .team__item:last-child {
@@ -563,7 +561,6 @@ a {
 .section--seven .test__item:first-child {
   -ms-flex-preferred-size: 60%;
       flex-basis: 60%;
-  margin-right: 178px;
   text-align: left;
 }
 
@@ -583,6 +580,8 @@ a {
 
 .section--seven .test__item {
   text-align: center;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
 }
 
 .section--seven .test__item__photo {

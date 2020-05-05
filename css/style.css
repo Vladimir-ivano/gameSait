@@ -555,20 +555,16 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .section--seven .test__item:first-child {
   -ms-flex-preferred-size: 60%;
       flex-basis: 60%;
   margin-right: 178px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
   text-align: left;
-  margin-bottom: 15px;
 }
 
 .section--seven .test__item:first-child .section__text {

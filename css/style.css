@@ -680,10 +680,28 @@ a {
 .section--eight .blog__parth__list__item__img {
   height: 206px;
   width: auto;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+}
+
+.section--eight .blog__parth__list__item__data {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: normal;
+  color: #FFC600;
+  margin-bottom: 15px;
+}
+
+.section--eight .blog__parth__list__item__title {
+  font-weight: 700;
+  font-size: 14px;
+  color: #1F1F1F;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+
+.section--eight .blog__parth__list__item__text {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #717171;
 }
 /*# sourceMappingURL=style.css.map */

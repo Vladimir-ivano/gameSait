@@ -660,6 +660,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -673,8 +674,13 @@ a {
   max-width: 180px;
   height: 327px;
   margin-bottom: 60px;
+  margin-right: 139px;
   overflow: hidden;
   position: relative;
+}
+
+.section--eight .blog__parth__list__item:nth-child(3) {
+  margin-right: 0;
 }
 
 .section--eight .blog__parth__list__item__img {

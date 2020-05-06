@@ -674,12 +674,11 @@ a {
   max-width: 180px;
   height: 327px;
   margin-bottom: 60px;
-  margin-right: 139px;
   overflow: hidden;
   position: relative;
 }
 
-.section--eight .blog__parth__list__item:nth-child(3) {
+.section--eight .blog__parth__list__item:nth-child() {
   margin-right: 0;
 }
 

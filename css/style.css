@@ -690,6 +690,7 @@ a {
 }
 
 .section--eight .blog__parth__list__item__info {
-  margin-top: 211px;
+  max-width: 180px;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */

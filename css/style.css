@@ -689,4 +689,8 @@ a {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+
+.section--eight .blog__parth__list__item__info {
+  margin-top: 211px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -670,18 +670,19 @@ a {
 .section--eight .blog__parth__list__item {
   -ms-flex-preferred-size: calc(100%/3);
       flex-basis: calc(100%/3);
-  margin: 0 auto;
   margin-bottom: 60px;
   overflow: hidden;
 }
 
 .section--eight .blog__parth__list__item__imgs {
+  max-width: 180px;
+  margin: 0 auto;
   position: relative;
 }
 
 .section--eight .blog__parth__list__item__imgs__img {
   position: absolute;
-  height: 206px;
+  height: 100%;
   top: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);

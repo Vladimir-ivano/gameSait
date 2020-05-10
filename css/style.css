@@ -746,4 +746,9 @@ a {
   background-size: cover;
   width: 50%;
 }
+
+.section--nine .footer__info {
+  position: relative;
+  padding: 60px 0 30px;
+}
 /*# sourceMappingURL=style.css.map */

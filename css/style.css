@@ -743,25 +743,17 @@ a {
   position: absolute;
   display: block;
   content: "";
-  background: url(../img/map.jpg) center right no-repeat;
+  background: url(../img/map.jpg) center no-repeat;
   background-size: cover;
   width: 50%;
 }
 
 .section--nine::after {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   position: absolute;
-  top: 47%;
-  left: 10%;
-  display: block;
+  top: 50%;
+  left: 25%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   content: "Sublime";
   background: #1F1F1F;
   border-radius: 50%;
@@ -771,6 +763,15 @@ a {
   font-weight: 700;
   width: 70px;
   height: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .section--nine .footer__info {

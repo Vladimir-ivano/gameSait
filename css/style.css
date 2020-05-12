@@ -827,7 +827,7 @@ a {
   width: 270px;
   -ms-flex-preferred-size: calc( 50% - 20px);
       flex-basis: calc( 50% - 20px);
-  margin-right: 20px;
+  margin-right: 35px;
   padding: 10px 10px 10px;
   background: #2046B3;
   border-radius: 5px;
@@ -864,7 +864,7 @@ a {
   font-weight: normal;
 }
 
-.section--nine .footer__info .footer__form:nth-child(3) {
+.section--nine .footer__info .footer__form__item:nth-child(3) {
   margin-right: 0px;
 }
 

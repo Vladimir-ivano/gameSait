@@ -787,6 +787,12 @@ a {
   margin-bottom: 15px;
 }
 
+@media (max-width: 1200px) {
+  .section--eight .blog__parth__list__item__info__data {
+    font-size: 14px;
+  }
+}
+
 .section--eight .blog__parth__list__item__info__title {
   font-weight: 700;
   font-size: 14px;

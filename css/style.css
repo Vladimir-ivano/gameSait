@@ -343,6 +343,12 @@ a {
   margin-bottom: 16px;
 }
 
+@media (max-width: 1200px) {
+  .section--four .section__text {
+    font-size: 14px;
+  }
+}
+
 .section--four .section__texts {
   font-size: 14px;
   color: #717171;
@@ -353,6 +359,7 @@ a {
 @media (max-width: 1200px) {
   .section--four .section__texts {
     margin-bottom: 60px;
+    font-size: 12px;
   }
 }
 
@@ -422,10 +429,22 @@ a {
   margin-bottom: 15px;
 }
 
+@media (max-width: 1200px) {
+  .section--four .strategic__title {
+    font-size: 14px;
+  }
+}
+
 .section--four .strategic__text {
   font-size: 14px;
   color: #717171;
   line-height: 1.4;
+}
+
+@media (max-width: 1200px) {
+  .section--four .strategic__text {
+    font-size: 12px;
+  }
 }
 
 .section--revers {
@@ -534,12 +553,24 @@ a {
   color: #1F1F1F;
 }
 
+@media (max-width: 1200px) {
+  .section--six .section__text {
+    font-size: 14px;
+  }
+}
+
 .section--six .section__texts {
   font-weight: normal;
   color: #717171;
   line-height: 1.4;
   font-size: 14px;
   margin-bottom: 60px;
+}
+
+@media (max-width: 1200px) {
+  .section--six .section__texts {
+    font-size: 12px;
+  }
 }
 
 .section--six .team {
@@ -706,6 +737,7 @@ a {
 @media (max-width: 1200px) {
   .section--eight .blog__parth__nav__link {
     margin-bottom: 10px;
+    font-size: 14px;
   }
 }
 
@@ -785,12 +817,6 @@ a {
   font-weight: normal;
   color: #FFC600;
   margin-bottom: 15px;
-}
-
-@media (max-width: 1200px) {
-  .section--eight .blog__parth__list__item__info__data {
-    font-size: 14px;
-  }
 }
 
 .section--eight .blog__parth__list__item__info__title {

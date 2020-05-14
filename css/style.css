@@ -735,8 +735,8 @@ a {
 
 @media (max-width: 1200px) {
   .section--eight .blog__parth__list {
-    -ms-flex-preferred-size: 75%;
-        flex-basis: 75%;
+    -ms-flex-preferred-size: calc(100% - 138px);
+        flex-basis: calc(100% - 138px);
   }
 }
 

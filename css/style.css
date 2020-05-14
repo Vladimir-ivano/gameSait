@@ -792,6 +792,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 60px;
 }
 
 .section--nine .footer__info .footer__form__name {
@@ -920,6 +921,9 @@ a {
 }
 
 .section--nine .footer__info .footer__form__btn {
+  padding: 10px 0;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
@@ -927,8 +931,6 @@ a {
   color: #1F1F1F;
   background: #FFC600;
   border-radius: 5px;
-  padding: 10px 265px;
-  margin-bottom: 60px;
   -webkit-transition: background .2s linear;
   transition: background .2s linear;
 }

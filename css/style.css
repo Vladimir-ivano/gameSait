@@ -402,6 +402,13 @@ a {
   margin-right: 30px;
 }
 
+@media (max-width: 1200px) {
+  .section--four .strategic__item__link:first-child {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
 .section--four .strategic__item__link:nth-child(2) {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;

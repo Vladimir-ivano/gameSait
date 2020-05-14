@@ -14,7 +14,7 @@
     max-width: 768px
   // header
 .section 
-  background: url(../img/bg_section--one.jpg)center no-repeat
+  background: url(../img/bg_section--one.jpg) center left no-repeat
   background-size: cover; 
   height: 100vh
   &__title
@@ -83,10 +83,14 @@
       font-size: 16px
       color: #1F1F1F
       margin-bottom: 15px
+      @media (max-width: 1200px)
+        font-size: 14px
     .about--texts
       color: #717171
-      font-size: 16px
+      font-size: 14px
       line-height: 1.4
+      @media (max-width: 1200px)
+        font-size: 12px
 .info
   display: flex
   margin-bottom: 20px
@@ -549,9 +553,9 @@
         color: #FAFAFA
         border: 2px solid #FAFAFA
         margin-bottom: 25px
-        @media (max-width: 1200px)
-          margin-right: 10px
-          flex-basis: calc( 50% - 10px )
+        
+          
+          
         &::placeholder
           color: #FAFAFA
           line-height: 1.4

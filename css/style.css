@@ -79,13 +79,13 @@ a {
 
 @media (max-width: 767px) {
   .section__title {
-    font-size: calc(36px + 60, 7 * ((100vw - 320px) / 1920));
+    font-size: calc(36px + 24 * ((100vw - 320px) / 1920));
   }
 }
 
 @media (min-width: 767px) {
   .section__title {
-    font-size: calc(36px + 60, 7 * ((100vw / 1920)));
+    font-size: calc(36px + 24 * ((100vw / 1920)));
   }
 }
 

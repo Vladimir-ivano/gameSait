@@ -58,18 +58,35 @@ a {
 }
 
 .section {
-  background: url(../img/bg_section--one.jpg) center left no-repeat;
+  background: url(../img/bg_section--one.jpg) center no-repeat;
   background-size: cover;
   height: 100vh;
 }
 
+@media (max-width: 1200px) {
+  .section {
+    background: url(../img/bg_section--one.jpg) left no-repeat;
+  }
+}
+
 .section__title {
   max-width: 469px;
-  font-size: 60px;
   padding-top: 60px;
   font-weight: 700;
   line-height: 1;
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  .section__title {
+    font-size: calc(36px + 60, 7 * ((100vw - 320px) / 1280));
+  }
+}
+
+@media (max-width: 767px) {
+  .section__title {
+    font-size: calc(36px + 60, 7 * ((100vw / 1280)));
+  }
 }
 
 .section__title--spanYellow span:first-child {

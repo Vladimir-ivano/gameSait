@@ -14,12 +14,14 @@
     max-width: 768px
   // header
 .section 
-  background: url(../img/bg_section--one.jpg) center left no-repeat
+  background: url(../img/bg_section--one.jpg) center  no-repeat
   background-size: cover; 
   height: 100vh
+  @media (max-width: 1200px)
+    background: url(../img/bg_section--one.jpg) left  no-repeat
   &__title
     max-width: 469px
-    font-size: 60px
+    @include adaptiv-font(60, 36)
     padding-top: 60px
     font-weight: 700
     line-height: 1

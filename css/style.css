@@ -963,7 +963,6 @@ a {
 }
 
 .section--nine .footer__info .footer__form__item {
-  width: 270px;
   -ms-flex-preferred-size: calc( 50% - 20px);
       flex-basis: calc( 50% - 20px);
   margin-right: 35px;
@@ -973,6 +972,14 @@ a {
   color: #FAFAFA;
   border: 2px solid #FAFAFA;
   margin-bottom: 25px;
+}
+
+@media (max-width: 1200px) {
+  .section--nine .footer__info .footer__form__item {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-right: 0;
+  }
 }
 
 .section--nine .footer__info .footer__form__item::-webkit-input-placeholder {

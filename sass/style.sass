@@ -544,7 +544,6 @@
           font-size: 16px
           font-weight: normal
       &__item
-        width: 270px
         flex-basis: calc( 50% - 20px )
         margin-right: 35px
         padding: 10px 10px 10px
@@ -553,9 +552,9 @@
         color: #FAFAFA
         border: 2px solid #FAFAFA
         margin-bottom: 25px
-        
-          
-          
+        @media (max-width: 1200px)
+          flex-basis: 100%
+          margin-right: 0
         &::placeholder
           color: #FAFAFA
           line-height: 1.4

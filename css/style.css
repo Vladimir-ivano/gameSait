@@ -769,8 +769,6 @@ a {
 
 .section--six .team .team__item {
   text-align: center;
-  -ms-flex-preferred-size: calc( 100%/4);
-      flex-basis: calc( 100%/4);
 }
 
 @media (max-width: 767px) {

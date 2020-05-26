@@ -31,13 +31,18 @@
     &--spanBig span
       font-size: 50px
   .nav
+    display: flex
     padding-top: 30px
+    @media (max-width: 767px)
+      flex-direction: column
     &__link
       color: #FFC600
       font-weight: normal
       font-size: 18px
       line-height: 1.4
       margin-right: 20px
+      @media (max-width: 767px)
+        margin-top: 10px
       &:last-child
         margin-right: 0
       &:hover
@@ -55,18 +60,28 @@
   display: flex
   align-items: center
   margin-bottom: 60px
+  @media (max-width: 767px)
+    flex-wrap: wrap
   &__title
     font-size: 80px
     font-weight: 700
     line-height: 1
     color: #1F1F1F
+    @media (max-width: 1200px)
+      font-size: 50px
+      @media (max-width: 767px)
+        margin-bottom: 20px
     &:before
       color: #717171
       content: 'About'
       display: block
       font-size: 50px
+      @media (max-width: 1200px)
+        font-size: 30px
   &__info, &__title
     flex-basis: 50%
+    @media (max-width: 767px)
+      flex-basis: 100%
   &__info
     padding-left: 15px
     position: relative
@@ -80,6 +95,8 @@
       top: 50%
       transform: translateY(-50%)
       width: 1px
+      @media (max-width: 767px)
+        display: none
     .about--text
       font-style: italic
       font-size: 16px
@@ -96,12 +113,16 @@
 .info
   display: flex
   margin-bottom: 20px
+  @media (max-width: 767px)
+    flex-wrap: wrap
   &__item
     flex-basis: calc(100%/3)
     text-align: center
     margin-right: 30px
     @media (max-width: 1200px)
       margin-right: 10px
+      @media (max-width: 767px)
+        flex-basis: 100%
     &__icon
       display: flex
       justify-content: center
@@ -133,6 +154,8 @@
   padding: 60px 0 30px
   height: auto
   background: #fff
+  @media (max-width: 767px)
+    padding: 60px 0 0 0
   .section__subtitle
     font-size: 30px
     width: max-content
@@ -152,6 +175,8 @@
       margin-right: 15px
       background-color: #fff
       outline: none
+      @media (max-width: 767px)
+        margin-top: 10px
       &:after
         display: none
         content: ''
@@ -171,13 +196,16 @@
       height: 268px
       @media (max-width: 1200px)
         height: 169px
+        @media (max-width: 767px)
+          flex-basis: 100%
       &__img
         height: 100%
         position: absolute
         left: 50%
         top: 0
         transform: translateX(-50%)
-
+        @media (max-width: 767px)
+          width: 190px
         // setion--four
 .section--four
   height: auto
@@ -216,6 +244,8 @@
     justify-content: space-between
     align-items: flex-start
     margin-bottom: 30px
+    @media (max-width: 767px)
+      flex-wrap: wrap
     &:nth-child(2)
       flex-direction: row-reverse
       text-align: right
@@ -228,6 +258,8 @@
       margin-right: 30px
       @media (max-width: 1200px)
         width: 50%
+        @media (max-width: 767px)
+          width: 100%
     &__link:nth-child(2)
       align-self: center
       margin-right: 30px
@@ -237,6 +269,8 @@
     font-size: 30px
     color: #1F1F1F
     font-weight: 700
+    @media (max-width: 767px)
+      text-align: center
   .strategic__title
     font-size: 16px
     font-style: italic
@@ -245,6 +279,8 @@
     margin-bottom: 15px
     @media (max-width: 1200px)
       font-size: 14px
+      @media (max-width: 767px)
+        text-align: center
   .strategic__text
     font-size: 14px
     color: #717171
@@ -252,6 +288,8 @@
     line-height: 1.4
     @media (max-width: 1200px)
       font-size: 12px
+      @media (max-width: 767px)
+        text-align: center
 
     // section--five
 .section--revers
@@ -267,6 +305,8 @@
     font-weight: 700
     width: max-content
     margin-bottom: 64px
+    @media (max-width: 767px)
+      margin-bottom: 40px
     &::after
       background-color: #fff
       content: ''
@@ -292,10 +332,14 @@
       font-weight: 700
       line-height: 1
       margin-bottom: 15px
+      @media (max-width: 767px)
+        text-align: center
     &__text
       font-size: 12px
       line-height: 1
       font-weight: normal
+      @media (max-width: 767px)
+        text-align: center
 
   // section--six
 .section--six
@@ -334,9 +378,13 @@
   .team
     display: flex
     justify-content: space-between
+    @media (max-width: 767px)
+      flex-wrap: wrap
     .team__item
       text-align: center
-      
+      flex-basis: calc( 100%/4 )
+      @media (max-width: 767px)
+        flex-basis: 100%
       &__img
         margin-bottom: 15px
       &__name
@@ -349,6 +397,8 @@
         font-style: italic
         color: #717171
         line-height: 1.4
+        @media (max-width: 767px)
+          margin-bottom: 10px
 
 // section--seven
 .section--seven
@@ -369,9 +419,13 @@
   .test
     display: flex
     align-items: center
+    @media (max-width: 767px)
+      flex-wrap: wrap
     &__item:first-child
       flex-basis: 60%
       text-align: left
+      @media (max-width: 767px)
+        flex-basis: 100%
       .section__text
         font-style: italic
         font-size: 16px
@@ -382,6 +436,8 @@
         font-size: 14px
         line-height: 1.4
         font-weight: normal
+        @media (max-width: 767px)
+          margin-bottom: 10px
     &__item
       text-align: center
       flex-basis: 40%
@@ -450,6 +506,8 @@
         margin-bottom: 60px
         @media (max-width: 1200px)
           margin-bottom: 30px
+          @media (max-width: 767px)
+            flex-basis: 100%
         &:nth-last-child(-n+3)
           margin-bottom: 0px
         &__imgs
